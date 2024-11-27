@@ -18,6 +18,12 @@ namespace OnlineJewelryShop.Controllers
             return View();
         }
 
+        public string Date()
+        {
+            var todaysDate = new DateTime();
+            return todaysDate.ToString();
+        }
+
         public IActionResult Privacy()
         {
             return View();
